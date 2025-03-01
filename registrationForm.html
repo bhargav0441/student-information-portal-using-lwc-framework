@@ -1,0 +1,18 @@
+<template>
+    <div class="sids-col sids-size_1-of-1 backgroundimage sids-p-top xx-large" >
+<lightning-card title = "Course Registration Form" >
+    <p><lightning-formatted-url class="underline-text right-align" value="www.youtube.com/@SalesforceKCademy5" label= "Youtube" tooltip="visit YT" target="_blank"></lightning-formatted-url></p>
+    <lightning-avatar src="https://wallpapers.com/images/hd/salesforce-background-4wfkf99wsw5tnz6w.jpg" initials="" fallback-icon-name="standard:avatar"  alternative-text="SFKC Course Registration" class="slds-m-right_small"></lightning-avatar>
+    <lightning-record-form 
+        object-api-name = {objectApiName}
+        fields = {fields}
+        onsuccess = {handleForm} 
+        variant="destructive"
+        class="slds-m-left_x-small"
+        layout-type="Full"
+        >
+    </lightning-record-form>
+    
+</lightning-card>
+    </div>
+</template>

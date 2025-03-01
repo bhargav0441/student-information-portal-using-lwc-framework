@@ -1,0 +1,14 @@
+.custom-container{
+	color : black;
+}
+.right-align {
+        float: right;
+        margin-right: 10px;
+}
+    .underline-text {
+        text-decoration: underline;
+    }
+    .backgroundimage 
+{
+background-image: url(/sfsites/c/resource/1521109846000/headerhome);
+}
